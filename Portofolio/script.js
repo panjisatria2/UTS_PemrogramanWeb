@@ -23,8 +23,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Menangani perubahan ukuran jendela
 window.addEventListener('resize', function() {
-  // Logika tambahan dapat ditambahkan di sini jika diperlukan
   console.log('Window resized to: ' + window.innerWidth + 'x' + window.innerHeight);
 });

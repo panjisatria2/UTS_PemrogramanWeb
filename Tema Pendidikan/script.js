@@ -1,17 +1,14 @@
-// Mendapatkan elemen form pendaftaran
+// kode untuk mengisi form
 const registrationForm = document.getElementById('registration-form');
 
-// Menambahkan event listener untuk menangani submit form
 registrationForm.addEventListener('submit', function (event) {
-    event.preventDefault(); // Mencegah pengiriman form default
+    event.preventDefault(); 
 
-    // Mengambil nilai dari input form
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
     const phone = document.getElementById('phone').value.trim();
     const major = document.getElementById('major').value;
 
-    // Validasi dasar input form
     if (!name || !email || !phone || !major) {
         console.error('Harap isi semua kolom yang diperlukan.');
         return;
@@ -19,11 +16,10 @@ registrationForm.addEventListener('submit', function (event) {
 
     alert("data telah terkirim")
 
-    // Reset form setelah pengiriman
     registrationForm.reset();
 });
 
-// Smooth scrolling for navigation links
+// untuk kode ini untuk smooth scroling
 document.querySelectorAll('nav a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
