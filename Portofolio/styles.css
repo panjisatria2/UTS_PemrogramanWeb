@@ -20,7 +20,6 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* nav */
 nav ul {
   list-style: none;
   padding: 0;
@@ -33,7 +32,7 @@ nav ul {
 nav li {
   display: inline-block;
 }
-/* nav */
+
 
 nav a {
   text-decoration: none;

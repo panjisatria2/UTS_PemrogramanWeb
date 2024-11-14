@@ -1,4 +1,3 @@
-/* Global Styling */
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +39,7 @@ header h1 {
 header ul {
     display: flex;
     gap: 20px;
-    list-style-type: none; /* Menghilangkan titik pada list */
+    list-style-type: none;
 }
 
 header ul li a {
@@ -71,7 +70,7 @@ header ul li a {
     background-color: #006b3c;
     color: white;
     padding: 10px 20px;
-    border: none; /* Menghapus border tombol */
+    border: none; 
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
@@ -79,7 +78,7 @@ header ul li a {
 }
 
 .home button:hover {
-    background-color: #00512d; /* Sedikit lebih gelap dari warna hijau awal */
+    background-color: #00512d; 
 }
 
 
@@ -99,19 +98,19 @@ header ul li a {
     margin-right: 20px;
     gap: 20px;
     align-items: flex-start;
-    width: 80%; /* Mengatur lebar div agar lebih ramping */
+    width: 80%; 
 }
 
 .sejarah h2 {
-    width: 100%; /* Heading penuh lebar di atas */
+    width: 100%;
     font-size: 28px;
-    color: #006b3c; /* Warna hijau untuk heading */
+    color: #006b3c;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .sejarah-content {
-    flex: 1; /* Menyesuaikan lebar isi */
+    flex: 1px;
 }
 
 .sejarah-content p {
@@ -119,9 +118,9 @@ header ul li a {
 }
 
 .sejarah img {
-    width: 250px; /* Mengatur ukuran lebar gambar */
+    width: 250px; 
     height: auto;
-    border-radius: 10px; /* Membuat sudut gambar melengkung */
+    border-radius: 10px; 
 }
 
 
@@ -131,7 +130,7 @@ header ul li a {
     background-color: #dff0e8;
     padding: 40px;
     text-align: center;
-    border: 1px solid #ccc; /* Border untuk keseluruhan content */
+    border: 1px solid #ccc; 
 }
 
 .content h2 {
@@ -156,13 +155,13 @@ header ul li a {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 1px solid #006b3c; /* Border hijau untuk card */
+    border: 1px solid #006b3c; 
 }
 
 .card img {
     width: 100%;
-    height: 150px; /* Mengatur tinggi gambar agar seragam */
-    object-fit: cover; /* Menyesuaikan gambar */
+    height: 150px; 
+    object-fit: cover; 
 }
 
 .card h3 {

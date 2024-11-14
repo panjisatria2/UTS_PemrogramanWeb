@@ -36,3 +36,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
   });
       
+  window.addEventListener('resize', function() {
+    console.log('Window resized to: ' + window.innerWidth + 'x' + window.innerHeight);
+  });
