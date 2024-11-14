@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendidikan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="img/images-removebg-preview.png" alt="">
+            <h1>SMK NU 1 Islamiyah Kramat</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div>
+                <h2>SMK NU 1 Islamiyah Kramat</h2>
+                <p>Mencetak Tenaga Kerja Menengah yang profesional, kompeten, dan berakhlakul karimah.</p>
+                <button onclick="location.href='#sejarah'">Lihat Sejarah Singkat</button>
+            </div>
+        </section>
+
+
+        <section class="sejarah" id="sejarah">
+            <div>
+                <h2>Sejarah Singkat</h2>
+                <p>SMK NU 1 Islamiyah Kramat tahun 1998 dengan Izin Operasional No. 0844/103.08/MN/98 Tanggal 01 Juni
+                    1998. Dipimpin oleh Dra. Hj. Fatikha, M.M..
+                    Pada awal berdirinya SMK NU 1 Islamiyah Kramat membuka 2 Jurusan yaitu Program Keahlian Akuntansi
+                    dan Sekretaris, pada Tahun Pelajaran 1998/1999. Pada saat itu baru menerima 4 rombongan belajar.
+                    Dengan bertambahnya animo masyarakat terhadap SMK NU 1 Islamiyah Kramat, maka pada Tahun Pelajaran
+                    2012/2013 mulai dibuka Program Keahlian Teknik Komputer dan Jaringan.
+                    Alhamdulillah di tahun pertama TKJ mendapatkan 2 rombel dan menikat menjadi 3 rombel ditahun-tahun
+                    selanjutnya, serta di tahun 2017/2018 membuka program studi Teknik Kendaraan Ringan Otomotif. Sesuai
+                    dengan perkembangan dan kebutuhan Dunia Industri.
+                    Di tahun pertama mendapatkan 3 rombel. Dan hingga saat ini, jumlah rombel stabil sejumlah 27 rombel
+                    setiap tahun ajarannya.</p>
+            </div>
+            <img src="img/images-removebg-preview.png" alt="">
+        </section>
+
+        <section class="content" id="content">
+            <h2>Content</h2>
+            <p>Di SMK NU Islamiyah Kramat memiliki 3 jurusan yaitu Teknik Komputer Jaringan (TKJ), Teknik Kendaraan
+                Ringan (TKR), dan Akuntansi.</p>
+
+            <div class="card_container">
+                <div class="card">
+                    <img src="img/IMG_20240202_113814-2048x1538.jpg" alt="">
+                    <h3>Teknik Otomotif</h3>
+                </div>
+                <div class="card">
+                    <img src="img/WhatsApp-Image-2024-09-21-at-14.08.48-1.jpeg" alt="">
+                    <h3>Teknik Komputer Jaringan Dan Telekomunikasi</h3>
+                </div>
+                <div class="card">
+                    <img src="img/WhatsApp-Image-2024-09-21-at-12.34.57.jpeg" alt="">
+                    <h3>Akuntansi Dan Keuangan Lembaga</h3>
+                </div>
+            </div>
+
+            <!-- Form Pendaftaran -->
+            <h3>Pendaftaran Sekolah</h3>
+            <form id="registration-form">
+                <div>
+                    <label for="name">Nama Lengkap:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Nomor Telepon:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="major">Jurusan yang Diinginkan:</label>
+                    <select id="major" name="major" required>
+                        <option value="tkj">Teknik Komputer Jaringan (TKJ)</option>
+                        <option value="tkr">Teknik Kendaraan Ringan (TKR)</option>
+                        <option value="akuntansi">Akuntansi</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit">Daftar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="about" id="about">
+            <div class="contact">
+                <h2>Hubungi Kami</h2>
+                <a href="https://www.google.com/maps/search/Jl.+Garuda+No.+39+Kemantran,+Kramat,+Tegal,+Jawa+Tengah"><i
+                        class="ph ph-map-pin"></i>Jl. Garuda No. 39 Kemantran, Kramat, Tegal, Jawa Tengah</a>
+                <a href="tel:+622836144969"><i class="ph ph-phone"></i>Telp. (0283) 6144969</a>
+                <a href="mailto:smeuiskra@gmail.com"><i class="ph ph-envelope-simple"></i>smeuiskra@gmail.com</a>
+            </div>
+
+            <div class="social_media">
+                <h2>Sosial Media</h2>
+                <div class="social_media_icon">
+                    <a href="https://www.facebook.com/pages/Smk-Nu-1-Islamiyah-Kramat/1400455696705519"><i
+                            class="ph ph-facebook-logo"></i></a>
+                    <a href="https://www.youtube.com/@smknu1islamiyahkramat963"><i class="ph ph-youtube-logo"></i></a>
+                    <a href="https://www.instagram.com/smknuiskra"><i class="ph ph-instagram-logo"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 SMK NU 1 Islamiyah Kramat Tegal. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

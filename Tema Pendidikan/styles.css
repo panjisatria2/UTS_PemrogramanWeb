@@ -1,0 +1,264 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #006b3c;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100vw;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+header nav img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    flex-grow: 1;
+    font-size: 24px;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none; /* Menghilangkan titik pada list */
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Home */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('img/WhatsApp\ Image\ 2024-11-12\ at\ 10.01.02_fe5c0d31.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.home div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home button {
+    background-color: #006b3c;
+    color: white;
+    padding: 10px 20px;
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.home button:hover {
+    background-color: #00512d; /* Sedikit lebih gelap dari warna hijau awal */
+}
+
+
+/* Section Sejarah */
+.sejarah {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: #333;
+    text-align: justify;
+}
+
+.sejarah div {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* background: black; */
+    margin-right: 20px;
+    gap: 20px;
+    align-items: flex-start;
+    width: 80%; /* Mengatur lebar div agar lebih ramping */
+}
+
+.sejarah h2 {
+    width: 100%; /* Heading penuh lebar di atas */
+    font-size: 28px;
+    color: #006b3c; /* Warna hijau untuk heading */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sejarah-content {
+    flex: 1; /* Menyesuaikan lebar isi */
+}
+
+.sejarah-content p {
+    line-height: 1.6;
+}
+
+.sejarah img {
+    width: 250px; /* Mengatur ukuran lebar gambar */
+    height: auto;
+    border-radius: 10px; /* Membuat sudut gambar melengkung */
+}
+
+
+
+/* Section Content */
+.content {
+    background-color: #dff0e8;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ccc; /* Border untuk keseluruhan content */
+}
+
+.content h2 {
+    color: #006b3c;
+    margin-bottom: 20px;
+}
+
+.content h3{
+    margin-top: 20px    ;
+}
+
+.card_container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #006b3c; /* Border hijau untuk card */
+}
+
+.card img {
+    width: 100%;
+    height: 150px; /* Mengatur tinggi gambar agar seragam */
+    object-fit: cover; /* Menyesuaikan gambar */
+}
+
+.card h3 {
+    color: #006b3c;
+    padding: 10px;
+}
+
+/* Form Pendaftaran */
+form#registration-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    color: #333;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #006b3c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Section About (Contact) */
+.about {
+    display: flex;
+    justify-content: space-around;
+    background-color: #006b3c;
+    color: white;
+    padding: 40px;
+}
+
+.contact, .social_media {
+    width: 45%;
+}
+
+.contact h2, .social_media h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact a, .social_media a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.social_media_icon {
+    display: flex;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    gap: 10px;
+    
+
+}
+
+.social_media_icon > a {
+    font-size: 30px;
+    /* background: blue; */
+}
+
+/* Style for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

@@ -1,0 +1,165 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+main {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  background-color: #bebebe;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+}
+
+#home img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.profile-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* Gaya untuk kontak */
+
+#contact ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+#contact ul li {
+  list-style: none;
+}
+
+#contact ul li a {
+  font-size: 30px;
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+  /* background: blue; */
+}
+
+#contact p{
+  text-align: center;
+}
